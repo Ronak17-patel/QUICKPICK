@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <activity android:name=".MainActivity_Dash"></activity>
         <activity android:name=".activity_splacescreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,9 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".activity_Register"/>
-        <activity android:name=".activity_mainpage"/>
+        <activity android:name=".activity_Register" />
+        <activity android:name=".activity_mainpage" />
     </application>
 
 </manifest>

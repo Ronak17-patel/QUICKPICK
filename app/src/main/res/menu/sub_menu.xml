@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+
+
+    <item
+        android:id="@+id/Grocery"
+        android:title="Grocery"/>
+
+    <item
+        android:id="@+id/Fruits"
+        android:title="Fruits"/>
+    <item
+        android:id="@+id/vegetable"
+        android:title="vegetable"/>
+    <item
+        android:id="@+id/dry_fruits"
+        android:title="Dry Fruits"/>
+
+<item
+        android:id="@+id/records"
+        android:title="Records"
+        android:icon="@drawable/ic_baseline_reorder_24"/>
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:icon="@drawable/ic_baseline_settings_24">
+
+    </item>
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/ic_baseline_live_help_24"
+        ></item>
+    <item
+        android:id="@+id/contect_us"
+        android:title="Contect_us"
+        android:icon="@drawable/ic_baseline_contact_support_24"
+        />
+</menu>
